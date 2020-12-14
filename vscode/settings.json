@@ -1,0 +1,20 @@
+{
+    "editor.renderControlCharacters": true,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'iA Writer Duospace', Fira Sans, Menlo, Monaco, 'Courier New', monospace",
+    "window.zoomLevel": 0,
+    "editor.codeActionsOnSave": null,
+
+    "[markdown]": {
+        "editor.fontFamily": "'iA Writer Duospace', monospace",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 18,
+        "editor.lineHeight": 28,          
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 64,        
+        "zenMode.centerLayout": true,
+        //"editor.lineNumbers": "off",
+        "editor.quickSuggestions": false,
+        },
+        "workbench.colorTheme": "One Dark Pro Italic Vivid",
+}
