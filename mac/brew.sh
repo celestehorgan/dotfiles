@@ -12,12 +12,6 @@ brew upgrade
 # Save Homebrew’s installed location.
 BREW_PREFIX=$(brew --prefix)
 
-# Install and setup Mongodb
-brew tap mongodb/brew
-brew install mongodb-community
-sudo mkdir -p /System/Volumes/Data/data/db
-sudo chown -R `id -un` /System/Volumes/Data/data/db
-
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
@@ -38,49 +32,69 @@ brew install grep
 brew install node
 
 # Install useful binaries.
-brew install ack
-brew install autojump
 brew install ffmpeg
 brew install git
 brew install git-lfs
 brew install github/gh/gh
-brew install imagemagick --with-webp
 brew install p7zip
 brew install pigz
 brew install pv
 brew install rsync
-brew install rename
 brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install youtube-dl
 
+# Binaries from my last mac
+brew install autoconf
+brew install gdbm
+brew install hyperkit
+brew install icu4c
+brew install go
+brew install hugo 
+brew install kubernetes-cli
+brew install libev
+brew install libyaml
+brew install minikube
+brew install node
+brew install openjdk@11
+brew install openssl@1.1
+brew install pkg-config
+brew install python
+brew install ruby
+brew install rbenv
+brew install rbenv-bundler
+brew install ruby-build 
+brew install ruby@2.4
+brew install sqlite 
+brew install xz
+brew install yarn
+
+
+
 # Installs Casks
 brew tap caskroom/cask
 
 ## Apps I use
-brew cask install 1password
-brew cask install alfred
-brew cask install beamer
+brew cask install lastpass
 brew cask install dash
-brew cask install dropbox
-brew cask install homebrew/cask-versions/firefox-nightly # Nightly
-brew cask install google-chrome #Chrome
-brew cask install homebrew/cask-versions/google-chrome-canary # Chrome Canary
-brew cask install grammarly
 brew cask install iterm2
 brew cask install kap
-brew cask install keycastr
-brew cask install mongodb-compass
+brew cask install firefox
+brew cask install google-chrome
+brew cask install grammarly
 brew cask install notion
 brew cask install sketch
-brew cask install skitch
+brew cask install figma
+brew cask install gitkraken
+
+## Communication apps
 brew cask install skype
 brew cask install slack
+brew cask install discord
+brew cask install whatsapp 
+brew cask install messenger
 brew cask install spotify
-brew cask install textexpander
-brew cask install tower
-brew cask install wechat
 
 # Remove outdated versions from the cellar.
 brew cleanup
