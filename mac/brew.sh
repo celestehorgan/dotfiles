@@ -87,6 +87,8 @@ brew cask install notion
 brew cask install sketch
 brew cask install figma
 brew cask install gitkraken
+brew cask install zoom
+brew cask install docker
 
 ## Communication apps
 brew cask install skype

@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# Install Homebrew, set bash to default shell 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install bash 
+chsh -s /bin/bash
+
 # Install apps and binaries with Brew
 source mac/brew.sh
 

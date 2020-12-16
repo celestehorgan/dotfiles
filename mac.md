@@ -26,3 +26,8 @@ Open a new shell too see the changes.
 What this does:
 
 1. Clone repositories I use for my work. (See [clone-repos.sh](shared/clone-repos.sh) for a list of repositories cloned)
+
+
+## Celeste todo's
+
+Automate github setup (SSH keys and the like)
